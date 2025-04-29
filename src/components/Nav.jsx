@@ -17,7 +17,7 @@ const Nav = () => {
     }, []);
 
     return (
-        <nav className='mb-10 sm:mb-20 md:mb-28 lg:mb-44 '>
+        <nav className='mb-10 md:mb-[80px] lg:mb-[143px]'>
             <div className="max-w-[1320px] px-4 mx-auto">
                 <div className="flex justify-between items-center py-[17px]">
                     <div className="flex items-center gap-3.5">
