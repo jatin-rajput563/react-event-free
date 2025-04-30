@@ -10,7 +10,7 @@ import img5 from '../assets/images/png/FooterImg5.png'
 const Footer = () => {
     return (
         <>
-            <div className="bg-black pt-[81px]">
+            <div className="bg-black pt-[81px] ">
                 <div className="max-w-[1320px] px-4 mx-auto pb-24">
                     <div className="flex flex-wrap flex-row -mx-3">
                         <div className="w-full xl:w-6/12 px-3 mb-6">

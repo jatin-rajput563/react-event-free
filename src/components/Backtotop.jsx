@@ -1,31 +1,30 @@
-import React, { useEffect, useState } from 'react';
-import ArrowUp from '../assets/images/png/up-arrow.png'
-
-const Backtotop = () => {
-    const [isVisible, setIsVisible] = useState(false);
-
-    useEffect(() => {
-        const handleScroll = () => {
-            setIsVisible(window.scrollY > 300);
-        };
-
-        window.addEventListener('scroll', handleScroll);
-        return () => window.removeEventListener('scroll', handleScroll);
-    }, []);
-
-    const scrollToTop = () => {
-        window.scrollTo({ top: 0, behavior: 'smooth' });
+"use client";
+import React, { useEffect, useState } from "react";
+import Arrow from '../assets/images/png/up-arrow.png'
+const BackToTop = () => {
+    const [scrollTop, setScrollToTop] = useState(false);
+    const scrollHandler = () => {
+        window.scrollTo({ top: 0, behavior: "smooth" });
     };
+    const windowScroll = () => {
+        setScrollToTop(window.scrollY > 180);
+    };
+    useEffect(() => {
+        window.addEventListener("scroll", windowScroll);
+    });
     return (
-        <button
-            onClick={scrollToTop}
-            className={`fixed bottom-6 right-6 p-3 rounded-full border-black shadow-lg transition-opacity duration-300 text-white z-10 ${isVisible ? 'opacity-100' : 'opacity-0 pointer-events-none'
-                }`}
-            aria-label="Back to Top"
-        >
-            <img src={ArrowUp} alt="" />
-        </button>
+        <>
+            {scrollTop && (
+                <button
+                    onClick={scrollHandler}
+                    className="fixed p-3 flex max-sm:hidden justify-center right-[15px] bottom-[15px] z-30 cursor-pointer bg-white border-1 rounded-full animate-bounce size-12 min-[1920.98px]:size-16 max-md:size-10"
+                >
+                    <img src={Arrow} alt="back to top"
+                    />
+                </button>
+            )}
+        </>
     );
-}
+};
 
-export default Backtotop
+export default BackToTop;
