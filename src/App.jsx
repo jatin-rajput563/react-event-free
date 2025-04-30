@@ -1,5 +1,5 @@
 import './App.css'
-import BackToTop from './components/Backtotop'
+import BackToTop from './components/BackTop'
 import Event from './components/Event'
 import Footer from './components/Footer'
 import Header from './components/Header'
