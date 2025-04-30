@@ -8,7 +8,7 @@ const Event = () => {
             <div className="pt-[68px] max-sm:pt-[20px] pb-[155px] max-sm:pb-[50px]">
                 <div className="max-w-[1320px] mx-auto max-sm:px-5">
                     <div>
-                        <img className='flex justify-center mx-auto' src={blueLine} alt="blue-line" />
+                        <img className='flex justify-center mx-auto max-sm:pb-[10px]' src={blueLine} alt="blue-line" />
                         <p className='font-bold text-[48px] max-sm:text-[33px] leading-[100%] m-0 text-center'>Choose your next event</p>
                     </div>
                     <div className="flex flex-wrap -mx-3 flex-row items-center justify-center gap-6 mt-[33px] ">
@@ -28,7 +28,7 @@ const Event = () => {
                                     <img src={item.People} alt="people-svg" />
                                     <p className='font-normal text-[16px] leading-[150%] opacity-75'>{item.PeopleText}</p>
                                 </div>
-                                <CommonButton btnClass='mt-[32px]' btnText="Go Check" />
+                                <CommonButton btnClass='mt-[32px] border-1 border-[#2C49FE]' btnText="Go Check" />
                             </div>
                         ))}
                     </div>
