@@ -33,8 +33,8 @@ const Nav = () => {
                     <ul id='nav-name' className={`list-unstyled flex justify-center items-center nav-link gap-[60px] mb-0 ${menuOpen ? "show-navbar" : ""}`}>
                         <li><Link className='poppins font-normal text-base leading-[100%] text-white hover:font-semibold' to="/">HOME</Link></li>
                         <li><Link className='poppins font-normal text-base leading-[100%] text-white hover:font-semibold' to="/event">EVENTS</Link></li>
-                        <li><Link className='poppins font-normal text-base leading-[100%] text-white hover:font-semibold' to="#">FEED</Link></li>
-                        <li><Link className='poppins font-normal text-base leading-[100%] text-white hover:font-semibold' to="#">FESTIVALS PROFILE</Link></li>
+                        <li><Link className='poppins font-normal text-base leading-[100%] text-white hover:font-semibold' to="/feed">FEED</Link></li>
+                        <li><Link className='poppins font-normal text-base leading-[100%] text-white hover:font-semibold' to="/festival">FESTIVALS PROFILE</Link></li>
                         <li><CommonButton btnText="Log Out" /></li>
                     </ul>
                 </div>
