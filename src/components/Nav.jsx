@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import logo from '../assets/images/svg/logo.svg'
-import CommonButton from '../components/common/CommonButton';
+import CommonButton from './common/CustomButton';
 
 const Nav = () => {
     const [menuOpen, setMenuOpen] = useState(false);
@@ -34,7 +34,7 @@ const Nav = () => {
                         <li><a className='poppins font-normal text-base leading-[100%] text-white hover:font-semibold' href="#">EVENTS</a></li>
                         <li><a className='poppins font-normal text-base leading-[100%] text-white hover:font-semibold' href="#">FEED</a></li>
                         <li><a className='poppins font-normal text-base leading-[100%] text-white hover:font-semibold' href="#">FESTIVALS PROFILE</a></li>
-                        <li><CommonButton btnText="Log Out"/></li>
+                        <li><CommonButton btnText="Log Out" /></li>
                     </ul>
                 </div>
             </div>

@@ -11,7 +11,7 @@ const Footer = () => {
     return (
         <>
             <div className="bg-black pt-[81px] ">
-                <div className="max-w-[1320px] px-4 mx-auto pb-24">
+                <div className="max-w-[1320px] px-4 mx-auto pb-24 max-sm:pb-[0]">
                     <div className="flex flex-wrap flex-row -mx-3">
                         <div className="w-full xl:w-6/12 px-3 mb-6">
                             <div className="flex items-center gap-3.5 pb-9">
