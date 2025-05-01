@@ -1,28 +1,20 @@
+import { BrowserRouter, Route, Routes } from 'react-router'
 import './App.css'
-import BackToTop from './components/common/BackTop'
-import Constructor from './components/home/Constructor'
-import Event from './components/event_Page/Event'
-import Footer from './components/common/Footer'
-import Header from './components/event_Page/Header'
-import HomeHeader from './components/home/HomeHeader'
-import JoinUs from './components/home/JoinUs'
-import LatestEvent from './components/home/LatestEvent'
-import Special from './components/home/Special'
+import Home from './view/Home'
+import Event from './view/EventP'
+import BackTop from './components/common/BackTop'
 
 function App() {
 
   return (
     <>
-      <Header />
-      <BackToTop />
-      <Event />
-      <Footer />
-      <HomeHeader />
-      <Special />
-      <Constructor />
-      <LatestEvent />
-      <JoinUs />
-      <Footer />
+     <BrowserRouter>
+     <Routes>
+      <Route path='/' element={<Home/>}/>
+      <Route path='/event' element={<Event/>}/>
+     </Routes>
+     </BrowserRouter>
+     <BackTop/>
     </>
   )
 }
