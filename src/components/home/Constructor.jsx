@@ -1,10 +1,10 @@
 import React from 'react'
-import CustomHeading from './common/CustomHeading'
-import CustomDescription from './common/CustomDescription'
-import participants from '../assets/images/svg/participants-icon.svg'
-import topic from '../assets/images/svg/topic-icon.svg'
-import speaker from '../assets/images/svg/speaker-icon.svg'
-import award from '../assets/images/svg/award-icon.svg'
+import CustomHeading from '../common/CustomHeading'
+import CustomDescription from '../common/CustomDescription'
+import participants from '../../assets/images/svg/participants-icon.svg'
+import topic from '../../assets/images/svg/topic-icon.svg'
+import speaker from '../../assets/images/svg/speaker-icon.svg'
+import award from '../../assets/images/svg/award-icon.svg'
 const Constructor = () => {
     return (
         <>

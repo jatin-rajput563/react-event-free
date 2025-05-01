@@ -1,13 +1,13 @@
 import './App.css'
-import BackToTop from './components/BackTop'
-import Constructor from './components/Constructor'
-import Event from './components/Event'
-import Footer from './components/Footer'
-import Header from './components/Header'
-import HomeHeader from './components/HomeHeader'
-import JoinUs from './components/JoinUs'
-import LatestEvent from './components/LatestEvent'
-import Special from './components/Special'
+import BackToTop from './components/common/BackTop'
+import Constructor from './components/home/Constructor'
+import Event from './components/event_Page/Event'
+import Footer from './components/common/Footer'
+import Header from './components/event_Page/Header'
+import HomeHeader from './components/home/HomeHeader'
+import JoinUs from './components/home/JoinUs'
+import LatestEvent from './components/home/LatestEvent'
+import Special from './components/home/Special'
 
 function App() {
 
@@ -18,11 +18,11 @@ function App() {
       <Event />
       <Footer />
       <HomeHeader />
-      <Special/>
-      <Constructor/>
-      <LatestEvent/>
-      <JoinUs/>
-      <Footer/>
+      <Special />
+      <Constructor />
+      <LatestEvent />
+      <JoinUs />
+      <Footer />
     </>
   )
 }

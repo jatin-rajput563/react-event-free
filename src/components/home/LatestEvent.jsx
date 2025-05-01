@@ -1,8 +1,8 @@
 import React from 'react'
-import line from '../assets/images/svg/blue-line.svg'
-import CustomHeading from './common/CustomHeading'
-import CustomDescription from './common/CustomDescription'
-import { LOREM_DATA } from '../utils/helper'
+import line from '../../assets/images/svg/blue-line.svg'
+import CustomHeading from '../common/CustomHeading'
+import CustomDescription from '../common/CustomDescription'
+import { LOREM_DATA } from '../../utils/helper'
 const LatestEvent = () => {
     return (
         <>

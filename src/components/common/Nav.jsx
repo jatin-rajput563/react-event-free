@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
-import logo from '../assets/images/svg/logo.svg'
-import CommonButton from './common/CustomButton';
+import logo from '../../assets/images/svg/logo.svg'
+import CommonButton from './CustomButton';
 
 const Nav = () => {
     const [menuOpen, setMenuOpen] = useState(false);

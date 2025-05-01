@@ -1,6 +1,6 @@
 import React from 'react'
-import Nav from '../components/Nav'
-import Arrow from '../assets/images/svg/text-svg.svg'
+import Nav from '../common/Nav'
+import Arrow from '../../assets/images/svg/text-svg.svg'
 
 const Header = () => {
     return (

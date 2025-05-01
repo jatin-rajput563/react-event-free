@@ -1,6 +1,6 @@
 "use client";
 import React, { useEffect, useState } from "react";
-import Arrow from '../assets/images/png/up-arrow.png'
+import Arrow from '../../assets/images/png/up-arrow.png'
 const BackToTop = () => {
     const [scrollTop, setScrollToTop] = useState(false);
     const scrollHandler = () => {

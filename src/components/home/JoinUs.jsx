@@ -1,8 +1,8 @@
 import React from 'react'
-import joinUs from '../assets/images/png/join-us-img.png'
-import line from '../assets/images/svg/blue-line.svg'
-import CustomHeading from './common/CustomHeading'
-import CustomDescription from './common/CustomDescription'
+import joinUs from '../../assets/images/png/join-us-img.png'
+import line from '../../assets/images/svg/blue-line.svg'
+import CustomHeading from '../common/CustomHeading'
+import CustomDescription from '../common/CustomDescription'
 const JoinUs = () => {
     return (
         <>

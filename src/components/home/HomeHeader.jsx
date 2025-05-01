@@ -1,8 +1,8 @@
 import React from 'react'
-import Nav from './Nav'
-import CustomDescription from './common/CustomDescription'
-import CustomButton from './common/CustomButton'
-import line from '../assets/images/svg/header-line.svg'
+import Nav from '../common/Nav'
+import CustomDescription from '../common/CustomDescription'
+import CustomButton from '../common/CustomButton'
+import line from '../../assets/images/svg/header-line.svg'
 
 const HomeHeader = () => {
     return (

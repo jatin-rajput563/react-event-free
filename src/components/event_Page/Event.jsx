@@ -1,7 +1,7 @@
 import React from 'react'
-import blueLine from '../assets/images/svg/blue-line.svg'
-import { BOX_DATA } from '../utils/helper'
-import CustomButton from './common/CustomButton'
+import blueLine from '../../assets/images/svg/blue-line.svg'
+import { BOX_DATA } from '../../utils/helper'
+import CustomButton from '../common/CustomButton'
 const Event = () => {
     return (
         <>
